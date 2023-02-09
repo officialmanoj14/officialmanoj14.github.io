@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import AllRoutes from './Components/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Everyone</h1>
-      <h1>This is my PORTFOLIO</h1>
-      <h2>Build with the help of JavaScrip and ReactJS</h2>
+      <Navbar/>
+      <AllRoutes/>
+      
     </div>
   );
 }
